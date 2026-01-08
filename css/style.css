@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Verdana;
-  color: #ffffff;
+  color: #000000;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 button {
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   color: #102f5e;
   border: 2px solid #102f5e;
   padding: 0.3rem 0.6rem;
@@ -28,7 +28,7 @@ button {
 }
 
 button:hover {
-  background-color: #000000;
+  background-color: #5e5d5d;
 }
 
 button:hover>i {
@@ -54,7 +54,7 @@ select {
 .todo-container {
   max-width: 450px;
   margin: 3rem auto 0;
-  background-color: #fdfdfd;
+  background-color: #000000;
   padding: 1.5rem;
   border-radius: 15px;
 }
@@ -62,14 +62,14 @@ select {
 .todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000000;
 }
 
 /* Todo Form */
 #todo-form,
 #edit-form {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000000;
 }
 
 #todo-form p,
@@ -88,13 +88,13 @@ select {
 
 #cancel-edit-btn {
   margin-top: 1rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Todo Toolbar */
 #toolbar {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000000;
   display: flex;
 }
 
@@ -103,7 +103,7 @@ select {
 }
 
 #search {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #000000;
   padding-right: 1rem;
   margin-right: 1rem;
   width: 65%;
@@ -136,7 +136,7 @@ select {
   justify-content: space-around;
   align-items: center;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ffffff;
   transition: 0.3s;
 }
 
@@ -154,7 +154,7 @@ select {
 }
 
 .done h3 {
-  color: #fff;
+  color: #000000;
   text-decoration: line-through;
   font-style: italic;
 }
@@ -195,12 +195,12 @@ select {
 .todo-container,
 .todo,
 .container {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   border-radius: 18px;
   padding: 20px;
 
-  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
   border: 1px solid rgb(247, 244, 244);
 
   animation: cardIn 0.5s ease;
@@ -222,7 +222,7 @@ select {
 .todo-item,
 .task,
 li {
-  background: rgb(255, 255, 255);
+  background: rgb(240, 115, 115);
   padding: 12px 14px;
   border-radius: 12px;
   margin-bottom: 10px;
