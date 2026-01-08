@@ -4,11 +4,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Verdana;
-  color: #333;
+  color: #ffffff;
 }
 
 body {
-  background-image: url("../img/fundonevebypedro.gif");
+  background-image: url("../img/PinDown.io__letsgtcooking_1767882718.gif");
   background-position: center 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,16 +28,16 @@ button {
 }
 
 button:hover {
-  background-color: #102f5e;
+  background-color: #000000;
 }
 
 button:hover>i {
-  color: #fff;
+  color: #000000;
 }
 
 button i {
   pointer-events: none;
-  color: #102f5e;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ select {
 
 #cancel-edit-btn {
   margin-top: 1rem;
-  color: #444;
+  color: #ffffff;
 }
 
 /* Todo Toolbar */
@@ -150,7 +150,7 @@ select {
 }
 
 .done {
-  background: #395169;
+  background: #ffffff;
 }
 
 .done h3 {
@@ -168,6 +168,7 @@ select {
   font-size: 13px;
   color: #000000;
   margin-bottom: 6px;
+  font-weight: bold;
 }
 
 .links {
@@ -178,7 +179,7 @@ select {
 
 .links a {
   font-size: 13px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   text-decoration: none;
   opacity: 0.7;
   transition: 0.3s;
@@ -190,6 +191,125 @@ select {
   opacity: 1;
   text-decoration: underline;
 }
+
+.todo-container,
+.todo,
+.container {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 20px;
+
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgb(247, 244, 244);
+
+  animation: cardIn 0.5s ease;
+}
+
+
+@keyframes cardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(25px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.todo-item,
+.task,
+li {
+  background: rgb(255, 255, 255);
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: 0.3s ease;
+  animation: itemIn 0.25s ease;
+}
+
+.todo-item:hover,
+.task:hover,
+li:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateX(6px);
+}
+
+.todo-item:hover {
+  background: rgb(255, 255, 255);
+  transform: translateX(5px);
+}
+
+.todo-item {
+  animation: itemIn 0.3s ease;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes itemIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*▄█▀███▄▄████████████████████▄▄███▀█░
